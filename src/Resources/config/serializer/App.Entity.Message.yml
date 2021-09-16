@@ -1,0 +1,16 @@
+App\Entity\Message:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+        message:
+            expose: true
+        dateAdd:
+            expose: true
+        isRead:
+            expose: true
+        sender:
+            expose: true
+        receiver:
+            expose: true
+

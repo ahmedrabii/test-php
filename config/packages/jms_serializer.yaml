@@ -1,0 +1,16 @@
+jms_serializer:
+#    visitors:
+#        xml_serialization:
+#            format_output: '%kernel.debug%'
+    metadata:
+        auto_detection: true
+        directories:
+            entities:
+                namespace_prefix: ""
+                path: '%kernel.root_dir%/Resources/config/serializer'
+#            any-name:
+#                namespace_prefix: "My\\FooBundle"
+#                path: "@MyFooBundle/Resources/config/serializer"
+#            another-name:
+#                namespace_prefix: "My\\BarBundle"
+#                path: "@MyBarBundle/Resources/config/serializer"
